@@ -1,0 +1,155 @@
+.body{
+    background-color: rgb(154, 216, 216);
+}
+.shipaddress, .contactinfo{
+    border:2px;
+    position: relative;
+}
+.email{
+    width: 465px;
+    height:56px;
+    background-image: url(1.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 15px;
+    border-radius: 6px;
+    border-style: inset;
+    font-size: 30px;
+    padding: 0px 1px 1px 110px;
+    color: grey;
+}
+.phone{
+    width: 465px;
+    height:56px;
+    background-image: url(2.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 15px;
+    border-radius: 6px;
+    border-style: inset;
+    font-size: 30px;
+    padding: 0px 1px 1px 110px;
+    color: grey;
+}
+.name{
+    width: 465px;
+    height:56px;
+    background-image: url(3.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 15px;
+    border-radius: 6px;
+    border-style: inset;
+    font-size: 30px;
+    padding: 0px 1px 1px 110px;
+    color: grey;
+}
+.address{
+    width: 465px;
+    height:56px;
+    background-image: url(4.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 15px;
+    border-radius: 6px;
+    border-style: inset;
+    font-size: 30px;
+    padding: 0px 1px 1px 110px;
+    color: grey;
+}
+.city{
+    width: 465px;
+    height:56px;
+    background-image: url(5.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 15px;
+    border-radius: 6px;
+    border-style: inset;
+    font-size: 30px;
+    padding: 0px 1px 1px 110px;
+    color: grey;
+}
+.country{
+    width: 465px;
+    height:56px;
+    background-image: url(6.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 15px;
+    border-radius: 6px;
+    border-style: inset;
+    font-size: 30px;
+    padding: 0px 1px 1px 110px;
+    color: grey;
+}
+.postal{
+    width: 465px;
+    height:56px;
+    background-image: url(7.png);
+    background-repeat: no-repeat;
+    background-size: contain;
+    background-position: 15px;
+    border-radius: 6px;
+    border-style: inset;
+    font-size: 30px;
+    padding: 0px 1px 1px 110px;
+    color: grey;
+    display: block;
+}
+.save{
+    padding-top: 15px;
+    font-size: 15px;
+    font-family: 'Montserrat', sans-serif;
+}
+.button{
+    font-size: 20px;
+    border: none;
+    background-color:orange;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    position: relative;
+    left:650px;
+    cursor: pointer;
+    border-radius: 10px;
+}
+.box{
+    background-color: #F2F2F2;
+    border-radius: 12px;
+    position:absolute;
+    left:817px;
+    right:240px;
+    top:170px;
+    bottom:435px;
+    width:383px;
+    height: 535px;
+    padding: 20px
+}
+.bag{
+    background-image: url(vintagebackbag.jpg);
+    background-repeat: no-repeat;
+    background-size:175.5px 135.9px;
+    padding: 0px 0px 0px 200px;
+    width:175.5px;
+    height:135.9px;
+}
+.shoes{
+    background-image: url(levishoes.jpg),url(dollar.png);
+    background-repeat: no-repeat;
+    background-size: 175.5px 135.9px;
+    padding: 0px 0px 0px 205px;
+    width:175.5px;
+    height:135.9px;
+}
+.price1{
+    background-image: url(dollar.png);
+    text-align: center;
+}
+.price2{
+    background-image: url(dollar.png);
+    
+}
+.total{
+    margin-top:55px;
+}

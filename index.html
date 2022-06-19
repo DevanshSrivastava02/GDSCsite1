@@ -4,68 +4,11 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/styles.css">
     <title>Document</title>
-    <style>
-        .hell{
-            font-size:50px;
-        }
-        .contactifo{
-            color: grey;
-        }
-        .shipaddress{
-            color: grey;
-        }
-        .email{
-            background-image: url(1.png);
-            background-repeat: no-repeat;
-            padding: 1px 50px;
-            font-size: 40px;
-            border-style:inset;
-    
-        }
-        .phone{
-            background-image: url(2.png);
-            background-repeat: no-repeat;
-            padding: 1px 50px;
-            font-size: 40px;
-            border-style:inset;
-          
-        }
-        .name{
-            background-image: url(3.png);
-            background-repeat: no-repeat;
-            padding: 1px 50px;
-            font-size: 40px;
-            border-style:inset;
-          
-        }
-        .address{
-            background-image: url(4.png);
-            background-repeat: no-repeat;
-            padding: 1px 50px;
-            font-size: 40px;
-            border-style:inset;
-            
-        }
-        .city{
-            background-image: url(5.png);
-            background-repeat: no-repeat;
-            padding: 1px 50px;
-            font-size: 40px;
-            border-style:inset;
-            
-        }
-        .country{
-            background-image: url(6.png);
-            background-repeat: no-repeat;
-            padding: 1px 50px;
-            font-size: 40px;
-            border-style:inset;
-        }
-    </style>
 </head>
-<body>
-    <h1 class:"hell">Checkout</h1>
+<body class="body">
+    <h1>Checkout</h1>
     <div class="contactinfo">
         <h2>Contact Information</h2>
         <h3>Email</h3>
@@ -73,7 +16,6 @@
         <h3>Phone</h3>
         <input type="text" class="phone" placeholder="Enter your phone">
     </div>
-    <hr>
     <div class="shipaddress">
         <h2>Shipping Address</h2>
         <h3>Full Name</h3>
@@ -84,6 +26,25 @@
         <input type="text" class="city" placeholder="Your city...">
         <h3>Country</h3>
         <input type="text" class="country" placeholder="Your Country...">
+        <h3>Postal</h3>
+        <input type="text" class="postal" placeholder="Your Postal Code...">
+        <div class="save">
+            <input type="checkbox">
+            <span>Save this information for later use</span>
+        </div>
+        <button type="submit" class="button">Continue</button>
+    </div>
+    <div class="box">
+        <div clas="bagphoto"></div>
+        <h2 class="bag">Vintage Backbag</h2>
+        <h3 class="price1">Price:💲54.99</h3>
+        <div class="levi"></div>
+        <h2 class="shoes">Levi Shoes</h2>
+        <h3 class="price1">Price:💲74.99</h3>
+        <div class="total">
+            <h3 class="price2">Shipping:💲19</h3>
+            <h3 class="price2">Total:💲148.98</h3>
+        </div>
     </div>
 </body>
 </html>
